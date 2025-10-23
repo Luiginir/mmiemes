@@ -1,3 +1,7 @@
+<?php
+require "header.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,9 +19,16 @@
     <link rel="stylesheet" href="css\global.css">
 
 </head>
+
+<?php echo generateHeader() ?>
+
 <body>
     <main>
         <div class="banner">
+            <div class="carousel-indicators">
+                <div class="active-profile"> </div>
+                <div> </div>
+            </div>
             <img src="images/auteurs/amir.jpg">
             <div class="add"><i class="fa-solid fa-plus"></i></div>
         </div>

@@ -79,3 +79,26 @@
 .card>div>p:last-child {
     font-weight: bold;
 }
+
+.carousel-indicators {
+    position: absolute;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 6px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.carousel-indicators div {
+    height: 4px;
+    width: 100%;
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 100px;
+}
+
+.active-profile {
+    opacity: 1 !important;
+}
