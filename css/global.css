@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: Inter;
+}
+
+h3 {
+    margin-block: 6px;
+}
+
+h4 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/*custom classes*/
+.details {
+    opacity: 70%;
+    font-size: 14px;
+}
+
+/*media queries*/
+@media (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
