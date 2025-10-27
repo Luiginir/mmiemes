@@ -84,4 +84,5 @@ $user = "1"
         </div>
     </main>
 </body>
+<script src="js/les-auteurs.js"></script>
 </html>
