@@ -65,20 +65,20 @@
     border-radius: 6px;
 }
 
-.card>p {
+.card>p:first-child {
     line-height: 0;
+    font-size: 18px;
 }
 
-.card>div {
+.card>p {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     font-size: 12px;
-}
-
-.card>div>p:last-child {
+    width: fit-content;
     font-weight: bold;
 }
+
 
 .carousel-indicators {
     position: absolute;
