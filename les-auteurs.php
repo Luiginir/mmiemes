@@ -6,7 +6,7 @@ require "header.php";
 <html lang="en">
 
 
-<?php echo generateHeader();
+<?php echo generateHeader($csslink = "./css/les-auteurs.css");
 
 $user = "1"
 

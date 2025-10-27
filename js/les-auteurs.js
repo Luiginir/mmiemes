@@ -1,6 +1,9 @@
 window.addEventListener('DOMContentLoaded', () => {
     const img = document.querySelector('.profile-imgs');
-    const infos = document.querySelector('.infos');
+    const infos = document.querySelectorAll('.infos');
+
+    console.log(infos);
+    console.log(infos[0], infos[1]);
 
     img.addEventListener("click", () => {
         if (infos[1].className.includes('hidden')) {
