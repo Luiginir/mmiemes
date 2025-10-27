@@ -1,6 +1,6 @@
 <?php
 
-function generateHeader() {
+function generateHeader($csslink = "") {
 
     return
     <<<HTML
@@ -15,9 +15,8 @@ function generateHeader() {
     <!--  Font Awesome  -->
     <script src="https://kit.fontawesome.com/062789c208.js" crossorigin="anonymous"></script>
     <!--  CSS  -->
-    <link rel="stylesheet" href="css\les-auteurs.css">
     <link rel="stylesheet" href="css\global.css">
-
+    $csslink
 </head>
 
 <header>
