@@ -1,6 +1,11 @@
 <?php
 
 function generateHeader($csslink = "") {
+    // préparer le lien CSS additionnel de façon sûre
+    $extraCss = "";
+    if (!empty($csslink)) {
+        $extraCss = '<link rel="stylesheet" href="' . htmlspecialchars($csslink, ENT_QUOTES, 'UTF-8') . '">';
+    }
 
     return
     <<<HTML
@@ -15,8 +20,8 @@ function generateHeader($csslink = "") {
     <!--  Font Awesome  -->
     <script src="https://kit.fontawesome.com/062789c208.js" crossorigin="anonymous"></script>
     <!--  CSS  -->
-    <link rel="stylesheet" href="css\global.css">
-    $csslink
+    <link rel="stylesheet" href="css/global.css">
+    $extraCss
 </head>
 
 <header>
@@ -37,6 +42,6 @@ HTML;
 
 }
 
-
+?>
 
 
