@@ -6,7 +6,7 @@ require "header.php";
 <html lang="en">
 
 
-<?php echo generateHeader();
+<?php echo generateHeader($csslink = "./css/les-auteurs.css");
 
 $user = "1"
 
@@ -84,4 +84,5 @@ $user = "1"
         </div>
     </main>
 </body>
+<script src="js/les-auteurs.js"></script>
 </html>
