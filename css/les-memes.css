@@ -49,21 +49,20 @@ body {
 
 .tinder--cards {
   flex-grow: 1;
-  padding-top: 40px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   z-index: 1;
+  display: none;
 }
 
 .tinder--card {
   display: inline-block;
-  width: 90vw;
+  width: 100vw;
   max-width: 400px;
-  height: 70vh;
+  height: 80vh;
   background: #FFFFFF;
-  padding-bottom: 40px;
   border-radius: 8px;
   overflow: hidden;
   position: absolute;
@@ -72,6 +71,9 @@ body {
   cursor: -webkit-grab;
   cursor: -moz-grab;
   cursor: grab;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .moving.tinder--card {
@@ -86,15 +88,29 @@ body {
   pointer-events: none;
 }
 
+.rating {
+  position: relative;
+  top: -16px;
+  font-size: 16px;
+  color: gold;
+  pointer-events: none;
+  background: rgba(176, 176, 176, 0.36);
+  backdrop-filter: blur(8px);
+  width: fit-content;
+  padding: 4px 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
 .tinder--card h3 {
-  margin-top: 32px;
+  margin-top: -8px;
   font-size: 32px;
   padding: 0 16px;
   pointer-events: none;
 }
 
 .tinder--card p {
-  margin-top: 24px;
+  margin-top: 8px;
   font-size: 20px;
   padding: 0 16px;
   pointer-events: none;
@@ -103,7 +119,7 @@ body {
 .tinder--buttons {
   flex: 0 0 100px;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .tinder--buttons button {
@@ -114,6 +130,8 @@ body {
   background: #FFFFFF;
   display: inline-block;
   margin: 0 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .tinder--buttons button:focus {
@@ -134,10 +152,43 @@ body {
 }
 
 .background {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.background h2 {
+  color: rgb(47, 47, 47);
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.background a {
+  padding: 12px 24px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  text-decoration: none;
+  color: black;
+  border-radius: 6px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

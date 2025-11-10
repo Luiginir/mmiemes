@@ -29,7 +29,7 @@ function generateHeader($csslink = "") {
     <div>
         <img src="images/logo.svg" alt="logo">
     </div>
-<!--  Nav  -->
+
     <div class="nav-pc">
         <a></a>
     </div>

@@ -3,7 +3,7 @@ require "header.php";
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 
 <?php echo generateHeader($csslink = "./css/les-auteurs.css");
