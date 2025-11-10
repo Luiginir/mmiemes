@@ -83,10 +83,10 @@
 
 <div class="background">
   <h2>C'est tout pour l'instant.</h2>
-  <a href="/index.php">Voir le dernier meme</a>
+  <a href="./index.php">Voir le dernier meme</a>
 </div>
 </body>
 <!-- HammerJS pour les gestes tactiles -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
-<script src="./js/index.js"></script>
+<script src="./js/les-memes.js"></script>
 </html>

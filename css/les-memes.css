@@ -54,7 +54,6 @@ body {
   justify-content: center;
   align-items: flex-end;
   z-index: 1;
-  display: none;
 }
 
 .tinder--card {
@@ -162,6 +161,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 0;
 }
 
 .background h2 {
@@ -178,15 +178,17 @@ body {
   text-decoration: none;
   color: black;
   border-radius: 6px;
-  animation: pulse 2s infinite;
+  animation: pulse 1.5s infinite;
+  cursor: pointer;
+  position: relative;
 }
 
 @keyframes pulse {
   0% {
     transform: scale(1);
   }
-  50% {
-    transform: scale(1.1);
+  60% {
+    transform: scale(1.05);
   }
   100% {
     transform: scale(1);

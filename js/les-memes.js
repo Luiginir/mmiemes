@@ -15,6 +15,15 @@ function initCards(card, index) {
   });
   
   tinderContainer.classList.add('loaded');
+  
+  // Cacher le conteneur de cartes si toutes les cartes sont swipées
+  var cardsContainer = document.querySelector('.tinder--cards');
+  var btn = document.querySelector('.tinder--buttons');
+  if (newCards.length === 0) {
+    cardsContainer.style.pointerEvents = 'none';
+    cardsContainer.style.zIndex = '-1';
+    btn.style.display = 'none';
+  }
 }
 
 initCards();

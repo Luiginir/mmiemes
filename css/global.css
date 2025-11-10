@@ -28,6 +28,26 @@ header img {
     height: 25px;
 }
 
+@media (max-width: 600px) {
+    .nav-pc {
+        display: none;
+    }
+    .nav-mobile {
+        display: block !important;
+    }
+}
+
+.nav-mobile {
+    display: none;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    margin-inline: 12px;
+    font-weight: 500;
+}
+
 h3 {
     margin-block: 6px;
 }
