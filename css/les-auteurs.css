@@ -2,6 +2,13 @@ main {
     display: flex;
     flex-direction: row;
     width: 100%;
+    gap: 10px;
+    box-sizing: border-box !important;
+}
+
+main > * {
+    flex: 1;
+    min-width: 0;
 }
 
 .banner>img {
@@ -111,13 +118,26 @@ main {
 }
 
 .infos {
-    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
     .infos {
         display: block !important;
     }
 
+    main {
+        padding: 10px;
+        box-sizing: border-box !important;
+    }
 
+    .hidden {
+        display: block !important;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
 }
