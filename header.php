@@ -27,15 +27,11 @@ function generateHeader($csslink = "") {
 <header>
 <!--  Logo  -->
     <div>
-        <a href="index.php">
-            <img src="images/logo.svg" alt="logo">
-        </a>
+        <img src="images/logo.svg" alt="logo">
     </div>
 <!--  Nav  -->
     <div class="nav-pc">
-        <a href="index.php">Accueil</a>
-        <a href="les-memes.php">Les memes</a>
-        <a href="les-auteurs.php">Les auteurs</a>
+        <a></a>
     </div>
     <div class="nav-mobile">
         <i class="fa-solid fa-bars"></i>

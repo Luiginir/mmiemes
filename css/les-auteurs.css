@@ -1,3 +1,9 @@
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
 .banner>img {
     width: 100%;
     height: 50vh;
@@ -26,15 +32,16 @@
     line-height: 0;
 }
 
-.infos {
+.details {
     margin: 18px;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.infos>div {
+.details>div {
     display: flex;
+    flex-direction: row;
     gap: 8px;
     align-items: center;
 }
@@ -101,4 +108,16 @@
 
 .active-profile {
     opacity: 1 !important;
+}
+
+.infos {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .infos {
+        display: block !important;
+    }
+
+
 }

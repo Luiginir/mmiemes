@@ -5,12 +5,18 @@ body {
     position: relative;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 header {
     position: sticky;
     z-index: 999;
     top: 0;
     width: 100%;
     display: flex;
+    padding-inline: 40px;
     height: 60px;
     align-items: center;
     justify-content: space-between;
@@ -18,10 +24,34 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: black;
     border-bottom-radius: 5px;
+    box-sizing: border-box;
 }
 
-header>div {
-    margin-inline: 16px;
+header>div>a {
+    padding-block: 8px;
+    padding-inline: 12px;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+}
+
+header a:hover {
+    background-color: #f0f0f0;
+    transition-duration: 0.3s;
+}
+
+.logo:hover {
+    background-color: #fff;
+}
+
+.nav-pc {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-mobile {
+    display: none;
 }
 
 header img {
@@ -74,5 +104,13 @@ p {
 @media (max-width: 600px) {
     body {
         font-size: 18px;
+    }
+
+    .nav-pc {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: block;
     }
 }

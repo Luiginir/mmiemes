@@ -1,18 +1,31 @@
 window.addEventListener('DOMContentLoaded', () => {
-    const img = document.querySelector('.profile-imgs');
+    const imgs = document.querySelectorAll('.profile-imgs');
     const infos = document.querySelectorAll('.infos');
+    const indicators = document.querySelectorAll('.indicator');
+
 
     console.log(infos);
     console.log(infos[0], infos[1]);
 
-    img.addEventListener("click", () => {
-        if (infos[1].className.includes('hidden')) {
-            infos[1].classList.remove('hidden');
-            infos[0].classList.add('hidden');
-        }
-        else {
-            infos[0].classList.remove('hidden');
-            infos[1].classList.add('hidden');
-        }
-    })
+    imgs.forEach( img =>
+        img.addEventListener("click", () => {
+            if (infos[1].className.includes('hidden')) {
+                infos[1].classList.remove('hidden');
+                infos[0].classList.add('hidden');
+                imgs[1].classList.remove('hidden');
+                imgs[0].classList.add('hidden');
+                indicators[0].classList.remove('active-profile');
+                indicators[1].classList.add('active-profile');
+            }
+            else {
+                infos[0].classList.remove('hidden');
+                infos[1].classList.add('hidden');
+                imgs[0].classList.remove('hidden');
+                imgs[1].classList.add('hidden');
+                indicators[1].classList.remove('active-profile');
+                indicators[0].classList.add('active-profile');
+            }
+        })
+    )
+
 })
