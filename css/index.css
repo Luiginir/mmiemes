@@ -1,8 +1,5 @@
 .tinder--card {
   display: inline-block;
-  width: 100vw;
-  max-width: 400px;
-  height: 80vh;
   background: #FFFFFF;
   border-radius: 8px;
   overflow: hidden;
@@ -18,7 +15,7 @@
 }
 
 .tinder--card img {
-  max-width: 100%;
+  height: 400px;
   pointer-events: none;
 }
 
