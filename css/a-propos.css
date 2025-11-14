@@ -1,0 +1,16 @@
+.a-propos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.a-propos-container p {
+    margin-top: 5%;
+    color: #343434;
+    
+}

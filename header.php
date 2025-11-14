@@ -32,9 +32,9 @@ function generateHeader($csslink = "") {
 <!--  Nav  -->
     <div class="nav-pc">
         <a href="index.php">Accueil</a>
-        <a href="a-propos.php">A propos</a>
         <a href="les-memes.php">Les memes</a>
         <a href="les-auteurs.php">Les auteurs</a>
+        <a href="a-propos.php">A propos</a>
     </div>
     <div class="nav-mobile">
         <i class="fa-solid fa-bars"></i>
