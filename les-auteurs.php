@@ -76,7 +76,7 @@ $user = "1"
                 </div>
                 <div class="detail">
                     <i class="fa-solid fa-ruler"></i>
-                    <p>1m72</p>
+                    <p>1m76</p>
                 </div>
                 <div class="detail">
                     <i class="fa-solid fa-briefcase"></i>
