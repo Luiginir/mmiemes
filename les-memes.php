@@ -88,5 +88,6 @@
 </body>
 <!-- HammerJS pour les gestes tactiles -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="./js/header.js"></script>
 <script src="./js/les-memes.js"></script>
 </html>

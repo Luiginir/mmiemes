@@ -25,19 +25,40 @@ function generateHeader($csslink = "") {
 </head>
 
 <header>
-<!--  Logo  -->
-    <div>
-        <img src="images/logo.svg" alt="logo">
-    </div>
-<!--  Nav  -->
-    <div class="nav-pc">
-        <a href="index.php">Accueil</a>
-        <a href="les-memes.php">Les memes</a>
-        <a href="les-auteurs.php">Les auteurs</a>
-        <a href="a-propos.php">A propos</a>
-    </div>
-    <div class="nav-mobile">
-        <i class="fa-solid fa-bars"></i>
+      <div id="topnav" class="topnav">
+
+        <!--  Logo  -->
+        <div>
+            <img src="images/logo.svg" alt="logo">
+        </div>
+
+        <!--  Nav pc -->
+        <div class="nav-pc">
+            <nav>
+                <a href="index.php">Accueil</a>
+                <a href="les-memes.php">Les memes</a>
+                <a href="les-auteurs.php">Les auteurs</a>
+                <a href="a-propos.php">A propos</a>
+            </nav>
+        </div>
+
+
+        <a id="topnav_hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
+        <!-- Some spans to act as a hamburger -->
+        <span></span>
+        <span></span>
+        <span></span>
+        </a>
+
+        <!-- Responsive Menu -->
+        <nav role="navigation" id="topnav_responsive_menu">
+        <ul>
+            <li><a href="/index.php">ACCUEIL</a></li>
+            <li><a href="/les-memes.php">LES MEMES</a></li>
+            <li><a href="/les-auteurs.php">LES AUTEURS</a></li>
+            <li><a href="/a-propos.php">A PROPOS</a></li>
+        </ul>
+        </nav>
     </div>
 </header>
 
