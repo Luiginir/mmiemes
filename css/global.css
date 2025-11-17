@@ -41,7 +41,7 @@ header {
 } */
 
 header a:hover {
-    background-color: #f0f0f0;
+    background-color: #e8e8e8;
     transition-duration: 0.3s;
 }
 
@@ -49,38 +49,23 @@ header a:hover {
     background-color: #fff;
 }
 
-.nav-pc {
+.nav-pc nav {
     display: flex;
     gap: 8px;
     justify-content: flex-end;
     align-items: center;
 }
 
-.nav-mobile {
-    display: none;
-}
-
 header img {
     height: 40px;
-}
-
-@media (max-width: 600px) {
-    .nav-pc {
-        display: none;
-    }
-    .nav-mobile {
-        display: block !important;
-    }
-}
-
-.nav-mobile {
-    display: none;
 }
 
 header a {
     text-decoration: none;
     color: black;
     font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 8px;
 }
 
 h3 {
@@ -114,10 +99,6 @@ p {
     .nav-pc {
         display: none;
     }
-
-    .nav-mobile {
-        display: block;
-    }
 }
 
 
@@ -144,7 +125,7 @@ p {
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   /* hide classic menu */
   #topnav_menu {
     display: none;
