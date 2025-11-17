@@ -102,5 +102,6 @@ $user = "1"
 
     </main>
 </body>
+<script src="js/header.js"></script>
 <script src="js/les-auteurs.js"></script>
 </html>
