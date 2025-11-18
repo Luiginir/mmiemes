@@ -9,7 +9,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
     imgs.forEach( img =>
         img.addEventListener("click", () => {
-            if (window.screen.width <= 660) {
+            console.log(window.innerWidth);
+            if (window.innerWidth <= 660) {
                 if (infos[1].className.includes('hidden')) {
                     infos[1].classList.remove('hidden');
                     infos[0].classList.add('hidden');
