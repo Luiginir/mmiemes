@@ -60,7 +60,7 @@ main > * {
 .description {
     margin-top: 18px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
     justify-content: left;
     align-items: flex-start !important;
     gap: 2px !important;
@@ -141,9 +141,6 @@ main > * {
         display: none;
     }
 
-    .banner {
-
-    }
 }
 
 @media (max-width: 660px) {
