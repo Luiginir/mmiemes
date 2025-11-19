@@ -12,16 +12,18 @@
     <h1>Le dernier meme</h1>
   </div>
 
-  <div class="tinder--card">
-      <img src="/images/meme2.png">
-    <div class="rating">
-      <i class="fa-solid fa-star"></i>
-      <i class="fa-solid fa-star"></i>
-      <i class="fa-solid fa-star"></i>
-      <i class="fa-solid fa-star"></i>
-    </div>
-    <h3>Demo card 2</h3>
-    <p>This is a demo for Tinder like swipe cards</p>
+  <div class="last-meme-container">
+      <img src="/images/meme1.png">
+      <div>
+        <h3>La classique</h3>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p>La soirée se passe bien, jusqu'au moment où tu te rends compte qu'il est déjà 4h. Le lendemain, à 8h, c'est CM de Mr Daghmi. Ça c'est ta tête à ce cours. Du coup c'est drôle.</p>
+      </div>
   </div>
 </body>
 <script src="./js/header.js"></script>
