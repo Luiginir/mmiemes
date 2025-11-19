@@ -24,8 +24,8 @@
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
       </div>
-      <h3>Demo card 1</h3>
-      <p>This is a demo for Tinder like swipe cards</p>
+      <h3>La classique</h3>
+      <p>La soirée se passe bien, jusqu'au moment où tu te rends compte qu'il est déjà 4h. Le lendemain, à 8h, c'est CM de Mr Daghmi. Ça c'est ta tête à ce cours. Du coup c'est drôle.</p>
     </div>
     <div class="tinder--card">
       <img src="/images/meme2.png">
@@ -33,21 +33,18 @@
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
       </div>
-      <h3>Demo card 2</h3>
-      <p>This is a demo for Tinder like swipe cards</p>
+      <h3>La Galo</h3>
+      <p>Ici, ce n'est pas "Ctrl+C, Ctrl+V", c'est "édition copier, édition coller". Du coup c'est drôle.</p>
     </div>
     <div class="tinder--card">
       <img src="/images/meme3.png">
       <div class="rating">
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
       </div>
-      <h3>Demo card 3</h3>
-      <p>This is a demo for Tinder like swipe cards</p>
+      <h3>Le cadreur</h3>
+      <p>Toi, tu ne te souviens sûrement pas de ce qu'il s'est passé. Mais la galerie de ce / cette pote, elle, elle s'en souviens. Du coup c'est drôle.</p>
     </div>
     <div class="tinder--card">
       <img src="/images/meme4.png">
@@ -56,20 +53,22 @@
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
       </div>
-      <h3>Demo card 4</h3>
-      <p>This is a demo for Tinder like swipe cards</p>
+      <h3>L'enc*lade</h3>
+      <p>Au début t'as de bonne intentions, mais [SQL ERROR]:حتى أنا لا أعرف.
+. Du coup c'est drôle.</p>
     </div>
     <div class="tinder--card" >
-      <img src="/images/test.png">
+      <img src="/images/meme5.png">
       <div class="rating">
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
       </div>
-      <h3>Demo card 5</h3>
-      <p>This is a demo for Tinder like swipe cards</p>
+      <h3>L'enc*lade (encore)</h3>
+      <p>Dans le contexte actuel, les élèves ont (selon eux) une charge (légèrement) trop élevée de travail, et on leur annonce un travail impossible à réaliser. Du coup c'est drôle.</p>
     </div>
   </div>
 
