@@ -140,4 +140,14 @@ main > * {
     .carousel-indicators {
         display: none;
     }
+
+    .banner {
+
+    }
+}
+
+@media (max-width: 660px) {
+    .banner {
+        cursor: pointer;
+    }
 }

@@ -11,8 +11,8 @@
 
 <div class="tinder">
   <div class="tinder--status">
-    <i class="fa fa-remove"></i>
-    <i class="fa fa-heart"></i>
+    <i class="fa-solid fa-xmark"></i>
+    <i class="fa-solid fa-heart"></i>
   </div>
 
   <div class="tinder--cards">

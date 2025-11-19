@@ -9,22 +9,26 @@ window.addEventListener('DOMContentLoaded', () => {
 
     imgs.forEach( img =>
         img.addEventListener("click", () => {
-            if (infos[1].className.includes('hidden')) {
-                infos[1].classList.remove('hidden');
-                infos[0].classList.add('hidden');
-                imgs[1].classList.remove('hidden');
-                imgs[0].classList.add('hidden');
-                indicators[0].classList.remove('active-profile');
-                indicators[1].classList.add('active-profile');
+            console.log(window.innerWidth);
+            if (window.innerWidth <= 660) {
+                if (infos[1].className.includes('hidden')) {
+                    infos[1].classList.remove('hidden');
+                    infos[0].classList.add('hidden');
+                    imgs[1].classList.remove('hidden');
+                    imgs[0].classList.add('hidden');
+                    indicators[0].classList.remove('active-profile');
+                    indicators[1].classList.add('active-profile');
+                }
+                else {
+                    infos[0].classList.remove('hidden');
+                    infos[1].classList.add('hidden');
+                    imgs[0].classList.remove('hidden');
+                    imgs[1].classList.add('hidden');
+                    indicators[1].classList.remove('active-profile');
+                    indicators[0].classList.add('active-profile');
+                }
             }
-            else {
-                infos[0].classList.remove('hidden');
-                infos[1].classList.add('hidden');
-                imgs[0].classList.remove('hidden');
-                imgs[1].classList.add('hidden');
-                indicators[1].classList.remove('active-profile');
-                indicators[0].classList.add('active-profile');
-            }
+
         })
     )
 

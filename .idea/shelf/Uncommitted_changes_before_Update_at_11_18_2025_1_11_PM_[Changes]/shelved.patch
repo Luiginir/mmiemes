@@ -1,0 +1,105 @@
+Index: css/index.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.tinder--card {\r\n  display: inline-block;\r\n  background: #FFFFFF;\r\n  border-radius: 8px;\r\n  overflow: hidden;\r\n  position: absolute;\r\n  will-change: transform;\r\n  transition: all 0.3s ease-in-out;\r\n  cursor: -webkit-grab;\r\n  cursor: -moz-grab;\r\n  cursor: grab;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n}\r\n\r\n.tinder--card img {\r\n  height: 400px;\r\n  pointer-events: none;\r\n}\r\n\r\n.rating {\r\n  position: relative;\r\n  top: -16px;\r\n  font-size: 16px;\r\n  color: gold;\r\n  pointer-events: none;\r\n  background: rgba(176, 176, 176, 0.36);\r\n  backdrop-filter: blur(8px);\r\n  width: fit-content;\r\n  padding: 4px 10px;\r\n  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);\r\n  border-radius: 12px;\r\n}\r\n\r\n.tinder--card h3 {\r\n  margin-top: -8px;\r\n  font-size: 32px;\r\n  padding: 0 16px;\r\n  pointer-events: none;\r\n}\r\n\r\n.tinder--card p {\r\n  margin-top: 8px;\r\n  font-size: 20px;\r\n  padding: 0 16px;\r\n  pointer-events: none;\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/index.css b/css/index.css
+--- a/css/index.css	(revision e02782b241f35e1a779cb8a47b10504f64b94078)
++++ b/css/index.css	(date 1763127338148)
+@@ -1,9 +1,17 @@
++main {
++  display: flex;
++  flex-direction: row;
++  padding: 100px;
++  gap: 25px;
++}
++
++
++
+ .tinder--card {
+   display: inline-block;
+   background: #FFFFFF;
+   border-radius: 8px;
+   overflow: hidden;
+-  position: absolute;
+   will-change: transform;
+   transition: all 0.3s ease-in-out;
+   cursor: -webkit-grab;
+@@ -21,7 +29,6 @@
+ 
+ .rating {
+   position: relative;
+-  top: -16px;
+   font-size: 16px;
+   color: gold;
+   pointer-events: none;
+Index: css/global.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>body {\r\n    margin: 0;\r\n    font-size: 18px;\r\n    font-family: Inter;\r\n    position: relative;\r\n}\r\n\r\na {\r\n    text-decoration: none;\r\n    color: inherit;\r\n}\r\n\r\nheader {\r\n    position: sticky;\r\n    z-index: 999;\r\n    top: 0;\r\n    width: 100%;\r\n    display: flex;\r\n    padding-inline: 40px;\r\n    height: 60px;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    background-color: #fff;\r\n    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\r\n    color: black;\r\n    font-size: 16px;\r\n    border-bottom-radius: 5px;\r\n    box-sizing: border-box;\r\n}\r\n\r\nheader>div>a {\r\n    padding-block: 8px;\r\n    padding-inline: 12px;\r\n    border-radius: 100px;\r\n    transition-duration: 0.3s;\r\n}\r\n\r\nheader a:hover {\r\n    background-color: #f0f0f0;\r\n    transition-duration: 0.3s;\r\n}\r\n\r\n.logo:hover {\r\n    background-color: #fff;\r\n}\r\n\r\n.nav-pc {\r\n    display: flex;\r\n    gap: 8px;\r\n    justify-content: flex-end;\r\n    align-items: center;\r\n}\r\n\r\n.nav-mobile {\r\n    display: none;\r\n}\r\n\r\nheader img {\r\n    height: 25px;\r\n}\r\n\r\n@media (max-width: 600px) {\r\n    .nav-pc {\r\n        display: none;\r\n    }\r\n    .nav-mobile {\r\n        display: block !important;\r\n    }\r\n}\r\n\r\n.nav-mobile {\r\n    display: none;\r\n}\r\n\r\nheader a {\r\n    text-decoration: none;\r\n    color: black;\r\n    font-weight: 500;\r\n}\r\n\r\nh3 {\r\n    margin-block: 6px;\r\n}\r\n\r\nh4 {\r\n    margin: 0;\r\n}\r\n\r\np {\r\n    margin: 0;\r\n}\r\n\r\n/*custom classes*/\r\n.details {\r\n    opacity: 70%;\r\n    font-size: 14px;\r\n}\r\n\r\n.hidden {\r\n    display: none !important;\r\n}\r\n\r\n/*media queries*/\r\n@media (max-width: 600px) {\r\n    body {\r\n        font-size: 18px;\r\n    }\r\n\r\n    .nav-pc {\r\n        display: none;\r\n    }\r\n\r\n    .nav-mobile {\r\n        display: block;\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/css/global.css b/css/global.css
+--- a/css/global.css	(revision e02782b241f35e1a779cb8a47b10504f64b94078)
++++ b/css/global.css	(date 1763127181770)
+@@ -5,6 +5,13 @@
+     position: relative;
+ }
+ 
++/*Text*/
++
++h2 {
++    margin: 0;
++    padding: 0;
++}
++
+ a {
+     text-decoration: none;
+     color: inherit;
+Index: index.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\r\n  require 'header.php'; \r\n?>\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"fr\">\r\n    <?php echo generateHeader($csslink = \"./css/index.css\") ?>\r\n<body>\r\n    <div class=\"tinder--card\">\r\n      <img src=\"/images/meme1.png\">\r\n      <div class=\"rating\">\r\n        <i class=\"fa-solid fa-star\"></i>\r\n        <i class=\"fa-solid fa-star\"></i>\r\n        <i class=\"fa-solid fa-star\"></i>\r\n        <i class=\"fa-solid fa-star\"></i>\r\n      </div>\r\n      <h3>Demo card 1</h3>\r\n      <p>This is a demo for Tinder like swipe cards</p>\r\n    </div>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.php b/index.php
+--- a/index.php	(revision e02782b241f35e1a779cb8a47b10504f64b94078)
++++ b/index.php	(date 1763126552341)
+@@ -6,16 +6,21 @@
+ <html lang="fr">
+     <?php echo generateHeader($csslink = "./css/index.css") ?>
+ <body>
+-    <div class="tinder--card">
+-      <img src="/images/meme1.png">
+-      <div class="rating">
+-        <i class="fa-solid fa-star"></i>
+-        <i class="fa-solid fa-star"></i>
+-        <i class="fa-solid fa-star"></i>
+-        <i class="fa-solid fa-star"></i>
+-      </div>
+-      <h3>Demo card 1</h3>
+-      <p>This is a demo for Tinder like swipe cards</p>
+-    </div>
++    <main>
++        <div class="tinder--card">
++            <img src="/images/meme1.png">
++        </div>
++        <div>
++            <h2>Le dernier meme</h2>
++            <p>Lorem Ipsum</p>
++            <div class="rating">
++                <i class="fa-solid fa-star"></i>
++                <i class="fa-solid fa-star"></i>
++                <i class="fa-solid fa-star"></i>
++                <i class="fa-solid fa-star"></i>
++            </div>
++        </div>
++    </main>
++
+ </body>
+ </html>
+\ No newline at end of file
