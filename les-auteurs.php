@@ -94,7 +94,7 @@ $user = "1"
                 </div>
                 <div class="description">
                     <h4>À propos de moi</h4>
-                    <p>blabla</p>
+                    <p>Passionné de technologie, de photos et de portes blindées, je me suis lancé dans les études du Multimédia et de l'Internet. Aujourd'hui, j'essaie de combiner ces passions pour créer des projets innovants et captivants.</p>
                 </div>
             </div>
         </div>
