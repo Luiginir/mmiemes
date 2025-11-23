@@ -17,7 +17,7 @@
 
   <div class="tinder--cards">
     <div class="tinder--card">
-      <img src="/images/meme1.png">
+      <img src="./images/meme1.png">
       <div class="rating">
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
@@ -28,7 +28,7 @@
       <p>La soirée se passe bien, jusqu'au moment où tu te rends compte qu'il est déjà 4h. Le lendemain, à 8h, c'est CM de Mr Daghmi. Ça c'est ta tête à ce cours. Du coup c'est drôle.</p>
     </div>
     <div class="tinder--card">
-      <img src="/images/meme2.png">
+      <img src="./images/meme2.png">
       <div class="rating">
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
@@ -38,7 +38,7 @@
       <p>Ici, ce n'est pas "Ctrl+C, Ctrl+V", c'est "édition copier, édition coller". Du coup c'est drôle.</p>
     </div>
     <div class="tinder--card">
-      <img src="/images/meme3.png">
+      <img src="./images/meme3.png">
       <div class="rating">
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
@@ -47,7 +47,7 @@
       <p>Toi, tu ne te souviens sûrement pas de ce qu'il s'est passé. Mais la galerie de ce / cette pote, elle, elle s'en souviens. Du coup c'est drôle.</p>
     </div>
     <div class="tinder--card">
-      <img src="/images/meme4.png">
+      <img src="./images/meme4.png">
       <div class="rating">
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
@@ -60,7 +60,7 @@
 . Du coup c'est drôle.</p>
     </div>
     <div class="tinder--card" >
-      <img src="/images/meme5.png">
+      <img src="./images/meme5.png">
       <div class="rating">
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>

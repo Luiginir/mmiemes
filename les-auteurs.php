@@ -21,7 +21,7 @@ $user = "1"
                     <div class="indicator active-profile"> </div>
                     <div class="indicator"> </div>
                 </div>
-                <img src="images/auteurs/amir.jpg" class="profile-imgs">
+                <img src="./images/auteurs/amir.jpg" class="profile-imgs">
                 <div class="add"><i class="fa-solid fa-plus"></i></div>
             </div>
 
@@ -64,7 +64,7 @@ $user = "1"
                     <div class="indicator"> </div>
                     <div class="indicator active-profile"> </div>
                 </div>
-                <img src="images/auteurs/lucas.png" class="profile-imgs">
+                <img src="./images/auteurs/lucas.png" class="profile-imgs">
                 <div class="add"><i class="fa-solid fa-plus"></i></div>
             </div>
 

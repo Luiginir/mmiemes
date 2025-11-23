@@ -14,7 +14,7 @@ require 'header.php';
   </div>
 
   <div class="last-meme-container">
-    <img src="/images/meme1.png">
+    <img src="./images/meme1.png">
     <div>
       <div>
         <h3>La classique</h3>
