@@ -82,7 +82,7 @@
 
 <div class="background">
   <h2>C'est tout pour l'instant.</h2>
-  <a href="./index.php">Voir le dernier meme</a>
+  <a class="btn" href="./index.php">Voir le dernier meme</a>
 </div>
 </body>
 <!-- HammerJS pour les gestes tactiles -->

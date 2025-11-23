@@ -1,10 +1,11 @@
 <?php
-  require 'header.php'; 
+require 'header.php';
 ?>
 
 <!DOCTYPE html>
 <html lang="fr">
-    <?php echo generateHeader($csslink = "./css/index.css") ?>
+<?php echo generateHeader($csslink = "./css/index.css") ?>
+
 <body>
   <div class='title-container'>
     <img src="./images/largelogo.svg" alt="">
@@ -13,7 +14,8 @@
   </div>
 
   <div class="last-meme-container">
-      <img src="/images/meme1.png">
+    <img src="/images/meme1.png">
+    <div>
       <div>
         <h3>La classique</h3>
         <div class="rating">
@@ -24,8 +26,11 @@
         </div>
         <p>La soirée se passe bien, jusqu'au moment où tu te rends compte qu'il est déjà 4h. Le lendemain, à 8h, c'est CM de Mr Daghmi. Ça c'est ta tête à ce cours. Du coup c'est drôle.</p>
       </div>
+      <a class="btn" href="./les-memes.php">Voir les memes</a>
+    </div>
   </div>
-<script src="./js/header.js"></script>
+  <script src="./js/header.js"></script>
 
 </body>
+
 </html>

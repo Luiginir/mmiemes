@@ -93,6 +93,27 @@ p {
     display: none !important;
 }
 
+.btn {
+  padding: 12px 24px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  text-decoration: none;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-top: 10px;
+  transition-duration: 0.3s;
+
+}
+
+.btn:hover {
+  background-color: #f0f0f0;
+  transition-duration: 0.3s;
+}
+
 /*media queries*/
 @media (max-width: 600px) {
     body {
