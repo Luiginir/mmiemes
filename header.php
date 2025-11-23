@@ -53,10 +53,10 @@ function generateHeader($csslink = "") {
         <!-- Responsive Menu -->
         <nav role="navigation" id="topnav_responsive_menu">
         <ul>
-            <li><a href="/index.php">ACCUEIL</a></li>
-            <li><a href="/les-memes.php">LES MEMES</a></li>
-            <li><a href="/les-auteurs.php">LES AUTEURS</a></li>
-            <li><a href="/a-propos.php">A PROPOS</a></li>
+            <li><a href="index.php">ACCUEIL</a></li>
+            <li><a href="les-memes.php">LES MEMES</a></li>
+            <li><a href="les-auteurs.php">LES AUTEURS</a></li>
+            <li><a href="a-propos.php">A PROPOS</a></li>
         </ul>
         </nav>
     </div>
